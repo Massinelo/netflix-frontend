@@ -1,0 +1,54 @@
+body {
+  background-color: #141414;
+}
+
+.container {
+  width: 100%;
+}
+
+/* HEADER */
+.header img {
+  height: 100px;
+  width: 100px;
+  margin-left: 50px;
+}
+
+/* Section */
+.section p {
+  color: white;
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  margin-bottom: 20px;
+  margin-left: 50px;
+}
+
+.list {
+  display: flex;
+  overflow-x: scroll;
+  margin-bottom: 50px;
+  margin-left: 50px;
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+::-webkit-scrollbar {
+  display: none;
+}
+
+.list img {
+  width: 220px;
+  height: 124px;
+}
+
+/* Footer */
+Footer {
+  padding: 50px 0;
+  font-size: 14px;
+  text-align: center;
+  color: white;
+}
+
+footer a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
